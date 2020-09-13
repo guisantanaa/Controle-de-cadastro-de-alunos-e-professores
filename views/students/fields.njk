@@ -1,0 +1,122 @@
+ <div class="item">
+                <div>Avatar URL</div>
+                <div>
+                    <input 
+                        type="url" 
+                        name="avatar_url" 
+                        placeholder="http://"
+                        value="{{ student.avatar_url }}"
+                        >
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Aluno</div>
+                <div>
+                    <input 
+                        type="text" 
+                        name="name"        
+                        value="{{student.name}}"
+                        >
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Email</div>
+            <div>
+            <input 
+                type="email"
+                name="email"
+                value="{{ student.email }}"
+                >
+            </div>
+        </div>
+
+            <div class="item">
+                <div>Data de nascimento</div>
+            <div>
+            <input 
+            type="date" 
+            name="birth"
+            value="{{ student.birth }}"
+            >
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div>Ano Escolar</div>
+            <select name="grade" id="grade" required>
+                <option value="5º Ano Ensino fundamenal"
+                {% if student.grade == '5º Ano' %}
+                select
+                {% endif %}>
+                5º Ano Ensino fundamenal
+                
+                </option>
+                <option value="6º Ano ensino fundamental"
+                {% if student.grade == '6º Ano' %}
+                select
+                {% endif %}>
+                6º Ano ensino fundamental
+                
+                </option>
+                <option value="7º Ano ensino fundamental"
+                {% if student.grade == '7º Ano'%}
+                select
+                {% endif %}>
+                7º Ano ensino fundamental
+                
+                </option>
+                <option value="8º Ano ensino fundamental"
+                {% if student.grade == '8º Ano' %}
+                select
+                {% endif %}>
+                8º Ano ensino fundamental
+
+                </option>
+                <option value="9º Ano ensino fundamental"
+                {% if student.grade == '9º Ano' %}
+                select
+                {% endif %}>
+                9º Ano ensino fundamental
+
+                </option>
+                <option value="1º Ano ensino médio"
+                {% if student.grade == '1º Ano' %}
+                select
+                {% endif %}>
+                1º Ano ensino médio
+
+                </option>
+                <option value="2º Ano ensino médio"
+                {% if student.grade == '2º Ano' %}
+                select
+                {% endif %}>
+                2º Ano ensino médio
+
+                </option>
+                <option value="3º Ano ensino médio"
+                {% if student.grade == '3º Ano' %}
+                select
+                {% endif %}>
+                3º Ano ensino médio
+                
+                </option>
+            </select>
+        </div>
+
+        <div class="item">
+            <div>Carga horária semanal</div>
+            <div>
+                <input type="number"
+                       name="number"
+                       placeholder="Digite a quantidade de horas das aulas"
+                       value="{{ student.number }}"
+                >
+                    
+            </div>
+        </div>
+
+        
+        <button id="student" type="submit">Salvar</button>

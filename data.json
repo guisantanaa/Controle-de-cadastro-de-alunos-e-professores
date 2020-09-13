@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "avatar_url": "https://source.unsplash.com/collection//332741/500x500",
+      "name": "Henrique",
+      "email": "santanagui40@gmail.com",
+      "birth": 818035200000,
+      "grade": "5º Ano Ensino fundamenal",
+      "Carga horária": "5",
+      "number": "5"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "avatar_url": "https://scontent.fgnm5-1.fna.fbcdn.net/v/t1.0-9/43426690_1711441522316426_3778813901781598208_o.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_eui2=AeGvKUfQp0UtStS0yKJFsgYvNp_-DYXV5tc2n_4NhdXm19T7VW2YYnXUkIWva6jUGp9pcIenG-OsBD525fwicDXB&_nc_ohc=sX2PY-Q_fD4AX8XRjJu&_nc_ht=scontent.fgnm5-1.fna&oh=6a04cb2f79378b06baab1fe37e4722f1&oe=5F79510B",
+      "name": "Fernanda",
+      "birth": 925516800000,
+      "gender": "Presencial",
+      "services": "crossfit, Musculação, Fisioterapia",
+      "created_at": 1597629024888,
+      "graduation": "Superior"
+    },
+    {
+      "id": "3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44278966?s=460&u=b4e204384c57d9c04ac62db8e8a0b4d88bb63546&v=4",
+      "name": "Guilherme ",
+      "birth": 912729600000,
+      "gender": "À distância",
+      "services": "Programador, desenvolvedor ",
+      "created_at": 1597629202569,
+      "graduation": "Superior"
+    }
+  ]
+}
