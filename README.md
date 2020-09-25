@@ -4,7 +4,7 @@
 
 ## Apresentação do projeto
 
-<img src="/assets/image.jpeg" alt="imagem de apresentação">
+<img src="/public/assets/image.jpeg" alt="imagem de apresentação">
 
 ## Softwares necessários 
 
